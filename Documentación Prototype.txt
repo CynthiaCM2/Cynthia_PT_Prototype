@@ -1,0 +1,17 @@
+1.- Nombre del proyecto
+Prototype
+2.- Para que se utiliza
+Para clonar un objeto
+3.- La problematica que soluciona
+Que no se modifique el objeto principal si se utilizarán varias funciones
+4.- Cuando debe ser utilizada
+Cuando se necesita crear varias funciones o atributos en un objeto 
+5.- Como se crea el prroyecto
+Se crea la clase Animal 
+Se ingresan los atributos de la clase, junto con el tipo de texto como int, string, etc, por ejemplo:
+ public int Patas { get; set; } 
+A la clase se le agrega un ICloneable que es un método que hará que se clonen los atributos
+Se crea el objeto Clone y ahí se insertan los objetos a repetir con sus atributos
+En el apartado Program se crean los objetos en específico de los atributos
+Se insertan los Console.WriteLine con los atributos a clonar
+
